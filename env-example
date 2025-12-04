@@ -1,4 +1,8 @@
 # .env ファイルの書き方
+
+# 開発者のSLACKID PCのSLACK > プロフィール > 3点リーダー > メンバーIDをコピー で取得
+DEVELOPER_SLACK_ID = ""
+
 # Slack api > Features > OAuth & Permissions > Bot User OAuth Token で取得
 SLACK_BOT_TOKEN=""
 # Slack api > Settings > Basic Information > Signing Secret で取得
