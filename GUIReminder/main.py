@@ -215,7 +215,7 @@ def handle_reminder_submission(ack, body, client, logger):
         mention_text = f"<@{user_id_to_mention}> " if user_id_to_mention else ""
         reminder_text = (
             f"{mention_text}\n"
-            f"【📣リマインド】\n"
+            f"【🔔リマインド】\n"
             f"{message}"
         )
         
@@ -235,7 +235,7 @@ def handle_reminder_submission(ack, body, client, logger):
             channel=channel_id,
             text=instant_post_text
         )
-        
+       
     except SlackApiError as e:
         logger.error(f"リマインド予約に失敗しました: {e.response['error']}")
         client.chat_postMessage(
