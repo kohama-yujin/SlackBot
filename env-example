@@ -1,0 +1,7 @@
+# .env ファイルの書き方
+# Slack api > Features > OAuth & Permissions > Bot User OAuth Token で取得
+SLACK_BOT_TOKEN=""
+# Slack api > Settings > Basic Information > Signing Secret で取得
+SLACK_SIGNING_SECRET=""
+# Slack api > Settings > Basic Information > App-Level Tokens で取得
+SLACK_APP_TOKEN=""
