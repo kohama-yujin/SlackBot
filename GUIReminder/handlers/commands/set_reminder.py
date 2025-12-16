@@ -224,7 +224,6 @@ def register(app):
                 f"【 🔔 新規リマインド 】\n"
                 f"<@{user_id_setter}> が {combined_dt_str} にリマインダーを予約しました。\n"
                 f"{mention_text}\n"
-                f"【内容】\n"
                 f"{message}\n"
             )
             
